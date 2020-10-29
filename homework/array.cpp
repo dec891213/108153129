@@ -31,7 +31,6 @@ void dump()
 int main()
 {
     dump();
-    int x = 1, y = 2;
     cout << "get(2, 2) 第2列 第2行 = " << get(2, 2) << endl;
     set(2, 2, 228922);
     cout << "set(2, 2, 228922) 變更第2列 第2行 = " << get(2, 2) << endl;
