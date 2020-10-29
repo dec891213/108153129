@@ -8,7 +8,7 @@ int get(int i, int j)
 {
     i--;
     j--;
-    return (x+(i*3)+j);
+    return *(*x+(i*3)+j);
 }
 void set(int i, int j, int v)
 {
